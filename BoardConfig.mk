@@ -24,8 +24,5 @@ BOARD_USES_HC_RADIO := true
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/p5/BoardConfigVendor.mk
 
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 699744256
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 14080704512
-
 TARGET_PREBUILT_KERNEL := device/samsung/p5/kernel
 
